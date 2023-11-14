@@ -36,6 +36,8 @@ html{
     font-family: Inter;
     font-size: 17px;
     font-weight: 600;
+    font-style: normal;
+    line-height: normal;
 }
 
 .menuNav ul li button{
@@ -47,5 +49,7 @@ html{
     text-align: center;
     font-family: Inter;
     font-size: 17px;
-    font-weight: 600;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
