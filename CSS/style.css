@@ -1,0 +1,47 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background-color: #3A4D39;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 180px;
+}
+
+.menuNav{
+    position: relative;
+    left: 170px;
+}
+
+.menuNav ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+.menuNav ul li a{
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menuNav ul li button{
+    color: #fff;
+    border-radius: 5px;
+    background-color:#739072 ;
+    width: 70px;
+    height: 40px;
+}
