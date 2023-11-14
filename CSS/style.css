@@ -34,7 +34,7 @@ html{
     text-decoration: none;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -44,4 +44,8 @@ html{
     background-color:#739072 ;
     width: 70px;
     height: 40px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
 }
