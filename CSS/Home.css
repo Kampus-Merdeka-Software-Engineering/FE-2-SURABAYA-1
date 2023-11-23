@@ -1,12 +1,15 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
 
-.nav{
+/* .nav{
     background-color: #3A4D39;
     display: flex;
 }
@@ -52,4 +55,4 @@ html{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} */
