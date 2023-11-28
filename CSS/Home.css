@@ -56,3 +56,30 @@ html{
     font-weight: 700;
     line-height: normal;
 } */
+
+.banner {
+    position: relative;
+    background-color: green;
+}
+
+.box {
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    background-color: aliceblue;
+   
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 200px;
+}
