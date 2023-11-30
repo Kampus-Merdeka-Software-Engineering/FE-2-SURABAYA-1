@@ -58,18 +58,22 @@ html{
 } */
 
 .banner {
-    position: relative;
-    background-color: green;
+    position :relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 20rem;
 }
 
 .box {
     border: 1px solid black;
-    width: 500px;
+    width: 1000px;
     height: 200px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /* top: 50%; */
     left: 50%;
-    z-index: 100;
+    z-index: 99;
     background-color: aliceblue;
    
     transform: translate(-50%, -50%);
@@ -82,4 +86,58 @@ html{
 
 .box img {
     width: 200px;
+    height: 5%;
+    margin: 0px 90px;
 }
+
+.why_us{
+    margin-bottom: 20px;
+}
+.why_us h1{
+    text-align: center;
+    color: #3A4D39;
+    margin-bottom: 40px;
+}
+
+.boxwhy{
+    display: flex;
+    width: 700px;
+    margin: 0px 310px;
+}
+
+.why1, .why2, .why3{
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.why1 img, .why2 img, .why3 img{
+    width: 60px;
+    height: 60px;
+    margin: 0 60px;
+}
+
+.latest h3{
+    color: #3A4D39;
+    margin-bottom: 130px;
+    margin-left: 20px;
+}
+
+.boxlatest{
+    display: flex;
+    margin-left: 220px;
+}
+.boxlatest .latest1, .boxlatest .latest2, .boxlatest .latest3{
+    margin: 0px 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+} 
+
+.boxlatest img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
