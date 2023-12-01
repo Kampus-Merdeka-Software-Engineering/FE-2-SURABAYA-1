@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelHolics!</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/Home.css">
     <link rel="stylesheet" href="../CSS/navfooter.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
-    <nav class="nav">
-        <a href="#" class="logo">
-            <img src="../Gambar/TravelHolic2.png" alt="logo">
-          </a>
-    
-        <nav class="navbar">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">About Us</a>
-        </nav>
-          <a href="#" class="login">Log In</a>
+    <nav>
+        <div class="nav__logo"><a href="#" class="logo">
+          <img src="../Gambar/TravelHolic2.png" alt="logo">
+        </a>
+        </div>
+        <div class="sideBar" onclick="toogleSidebar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#services">Services</a></li>
+          <li class="link"><a href="#about">About Us</a></li>
+          <li class="login"><a href="../HTML/">Log In</a></li>
+        </ul>
     </nav>
 
     <section class="main1">
@@ -107,5 +113,6 @@
         </div>
         </div>
     </footer>
+    <script src="../JS/index.js"></script>
 </body>
 </html>
