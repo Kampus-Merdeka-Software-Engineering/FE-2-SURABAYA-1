@@ -20,24 +20,6 @@
 }
 
 
-.btn {
-  padding: 0.75rem 1.5rem;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  white-space: nowrap;
-  color: var(--white);
-  background-color: #3A4D39;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background-color: #3D5F3B;
-}
-
 a {
   text-decoration: none;
   color: #fff;
@@ -50,16 +32,16 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--secondary-color);
+  background-color: #EBE3CE;
 }
 
 .header {
-  background-image: url("../Gambar/banner2.jpg");
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  background: #EBE3CE;
 }
 
 nav {
@@ -118,54 +100,71 @@ nav {
   padding: 5rem 1rem 10rem;
 }
 
-.header__container h1 {
-  margin-bottom: 4rem;
-  max-width: 1000px;
-  margin-inline: auto;
-  font-size: 3.5rem;
-  color: black;
-  text-align: center;
-}
-
-.header__form {
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
+/* Menambahkan box banner*/
+.box {
+  border: 2px solid black;
+  width: 800px;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  z-index: 99;
+  background-color: #EBE3CE;
+ 
+  transform: translate(-50%, -50%);
   border-radius: 10px;
-}
 
-.header__form form {
-  padding: 1rem 2rem;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-  background-color: var(--white);
-  border-radius: 10px;
+  margin-top: 60px;
 }
 
-.input__group {
+.box img {
+  width: 200px;
+  height: 5%;
+  margin: 0px 70px;
+}
+
+.container_desc {
+  background-color: #3A4D39; /* Warna hijau */
+  color: #fff; /* Warna teks putih */
+  padding: 20px; /* Ruang dalam container */
+  margin-bottom: 0px;
+}
+
+.container_desc h1{
+  padding: 20px 20px 0px 20px;
+}
+
+.container_desc p{
+  padding: 20px 20px 100px 20px;
+}
+
+.container_mobil {
+  display: flex;
+  justify-content: space-around; /* Atur ruang di sekitar item agar berdampingan */
+  margin-top: 0px;
+}
+
+.container_sedan, .container_SUV {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-family: sans-serif;
+  width: 35%; /* Atur lebar agar tidak terlalu lebar */
 }
 
-.input__group label {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-dark);
+.container_sedan img, .container_SUV img {
+  width: 90%;
+
 }
 
-.input__group input {
-  max-width: 100px;
-  outline: none;
-  border: none;
-  font-size: 0.9rem;
+.container_SUV .half-image {
+  margin-top: 15px; /* Jarak antara gambar dan teks di container_SUV */
 }
-
-
-/* Menambahkan gaya untuk class 'tc' */
 
 
 
