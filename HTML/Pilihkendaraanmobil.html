@@ -4,9 +4,385 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mobil</title>
+    <link rel="stylesheet" href="../CSS/mobilbus.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    
+    <nav>
+        <div class="nav__logo"><a href="#" class="logo">
+          <img src="../Gambar/TravelHolic2.png" alt="logo">
+        </a>
+        </div>
+        <div class="sideBar" onclick="toogleSidebar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#services">Services</a></li>
+          <li class="link"><a href="#about">About Us</a></li>
+          <li class="login"><a href="../HTML/">Log In</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="mobil">
+            <h2>DAFTAR PILIHAN MOBIL</h2>
+            <div class="mobil-item-container">
+            <div class="mobil-item">
+                <img src="../Gambar/C2.png" alt="Mobil 1">
+                <h3>Toyota Alphard</h3>
+                <p>Type SUV</p>
+                <p>Tingkat Kenyamanan Tinggi</p>
+                <p>Bagasi Sangat Luas</p>
+                <p>6 Kursi</p>
+                <p>2498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 1.100.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/landcruiser.png" alt="Mobil 2">
+                <h3>Toyota Land Cruiser</h3>
+                <p>Type SUV</p>
+                <p>Tingkat Kenyamanan Tinggi</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>3346 cc</p>
+                <p>Diesel</p>
+                <h4>IDR 1.200.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/Pajero.png" alt="Mobil 3">
+                <h3>Mitsubishi Pajero Sport</h3>
+                <p>Type SUV</p>
+                <p>Tingkat Kenyamanan Tinggi</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Sangat Luas</p>
+                <p>2755 cc</p>
+                <p>Diesel</p>
+                <h4>IDR 770.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/hrv.png" alt="Mobil 18">
+                <h3>Honda HR-V</h3>
+                <p>Type SUV</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Sangat Luas</p>
+                <p>1498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 550.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/C3.png" alt="Mobil 4">
+                <h3>Toyota Innova Reborn</h3>
+                <p>Type SUV</p>
+                <p>Tingkat Kenyamanan Tinggi</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1998 cc</p>
+                <h4>IDR 600.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/fortuner.png" alt="Mobil 5">
+                <h3>Toyota Fortuner</h3>
+                <p>Type SUV</p>
+                <p>Tingkat Kenyamanan Tinggi</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Sangat Luas</p>
+                <p>2755 cc</p>
+                <p>Diesel</p>
+                <h4>IDR 770.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/C1.png" alt="Mobil 6">
+                <h3>Toyota All New Avanza</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1329 cc</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/Xenia.png" alt="Mobil 26">
+                <h3>Daihatsu All New Xenia</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>2755 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/C4.png" alt="Mobil 7">
+                <h3>Honda Brio</h3>
+                <p>Type LCGC</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1199 cc</p>
+                <h4>IDR 280.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/C5.png" alt="Mobil 8">
+                <h3>Honda Mobilio</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <h4>IDR 300.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/C6.png" alt="Mobil 9">
+                <h3>Honda CR-V</h3>
+                <p>Type SUV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1498 cc</p>
+                <h4>IDR 600.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                 <img src="../Gambar/CS1.png" alt="Mobil 10">
+                <h3>Toyota Camry</h3>
+                <p>Type Sedan</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 600.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/CS2.png" alt="Mobil 11">
+                <h3>Toyota Corolla Altis</h3>
+                <p>Type Sedan</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 600.000 /24 jam</h4>
+                <button>select</button>
+           </div>
+           <div class="mobil-item">
+                <img src="../Gambar/CS3.png" alt="Mobil 12">
+                <h3>Honda City</h3>
+                <p>Type Sedan</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 580.000 /24 jam</h4>
+                <button>select</button>
+            </div> 
+            <div class="mobil-item">
+                <img src="../Gambar/CS4.png" alt="Mobil 13">
+                <h3>Toyota Vios</h3>
+                <p>Type Sedan</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 550.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/CS5.png" alt="Mobil 14">
+                <h3>Toyota Accord</h3>
+                <p>Type Sedan</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1498 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 600.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/agya.png" alt="Mobil 15">
+                <h3>Toyota Agya</h3>
+                <p>Tye LCGC</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1198 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 280.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/ayla.png" alt="Mobil 16">
+                <h3>Daihatsu Ayla</h3>
+                <p>Type LCGC</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1198 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 280.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/calya.png" alt="Mobil 17">
+                <h3>Toyota Calya</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1197 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 300.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/civictype-r.png" alt="Mobil 19">
+                <h3>Honda Civic Type-R</h3>
+                <p>Type Sedan Sport</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1996 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 770.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/jazz.png" alt="Mobil 20">
+                <h3>Honda Jazz</h3>
+                <p>Type Hatchback</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1497 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/mazda2.png" alt="Mobil 21">
+                <h3>Mazda 2</h3>
+                <p>Type Hatchback</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/raize.png" alt="Mobil 22">
+                <h3>Toyota Raize</h3>
+                <p>Type MPV</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>998 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 370.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/rocky.png" alt="Mobil 23">
+                <h3>Daihatsu Rocky</h3>
+                <p>Type MPV</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>998 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 350.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/Rush.png" alt="Mobil 24">
+                <h3>Toyota Rush</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/Terios.png" alt="Mobil 25">
+                <h3>Daihatsu Terios</h3>
+                <p>Type MPV</p>
+                <p>7 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 400.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            <div class="mobil-item">
+                <img src="../Gambar/yaris.png" alt="Mobil 27">
+                <h3>Toyota Yaris</h3>
+                <p>Type Hatchback</p>
+                <p>5 Kursi</p>
+                <p>Bagasi Luas</p>
+                <p>1496 cc</p>
+                <p>Bensin</p>
+                <h4>IDR 380.000 /24 jam</h4>
+                <button>select</button>
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="company">
+                <img src="../Gambar/TravelHolic2.png" alt="logo" class="logo">
+    
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2023 Travel Holics. All Rights Reserved.</p>
+            </div>
+
+
+            <div class="col" id="services">
+            <h3>Services</h3>
+            <div class="links">
+                <a href="#">MPV</a>
+                <a href="#">SUV</a>
+                <a href="#">Mini Bus</a>
+                <a href="#">Bus</a>
+            </div>
+            </div>
+
+            <div class="col" id="useful-links">
+            <h3>Company</h3>
+            <div class="links">
+                <a href="#">Services</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Team</a>
+                <a href="#">Contact Us</a>
+            </div>
+            </div>
+
+            <div class="col" id="contact">
+                <h3>Contact</h3>
+                <div class="contact-details">
+                <i class="fa fa-location"></i>
+                <p>Jl. Karet Sudirman Kav. 99 <br> Jakarta, Indonesia</p>
+                </div>
+                <div class="contact-details">
+                <i class="fa fa-phone"></i>
+                <p>+62-86715999999/021-5259999</p>
+                </div>
+                <div class="contact-details">
+                <i class="fa fa-envelope"></i>
+                <p>travelholics@gmail.com</p>
+                </div>
+            </div>
+    </div>
+    </div>
+</footer>
 </html>
