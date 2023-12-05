@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form id="loginForm">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <label for="loginUsername"></label>
+                <input type="text" placeholder="Username" id="loginUsername" required>
+                <label for="loginPassword"></label>
+                <input type="password" placeholder="Password" id="loginPassword" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Explore with Travel Holics!</h1>
+                    <p>Not Register Yet?</p>
+                    <a href="../HTML/register.html"><button class="hidden" id="register">Sign Up</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/script_login.js"></script>
+</body>
+
+</html>
