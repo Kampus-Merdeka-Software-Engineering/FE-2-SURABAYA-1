@@ -8,7 +8,7 @@ nanti repository yang dimain bakal kecopy dan tinggal diedit. Ganbate temen teme
 Jobdesk Front End
 Fairuz
 1. Nav dan footer untuk seluruh halaman
-2 . Home/ Landing Page
+2. Home/ Landing Page
 3. Contact us (masuk ke footer aja?)
 
 Danaya
