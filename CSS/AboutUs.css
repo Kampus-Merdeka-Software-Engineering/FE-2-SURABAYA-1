@@ -156,12 +156,12 @@ img{
 .wrapper{
   background: #fff;
   width: 1000px;
-  height: 610px;
-  margin-left: 5.5%;
-  margin-bottom: 30px;
+  height: 470px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-bottom: 5%;
 } 
 .wrapper h2{
   text-align: center;
@@ -200,7 +200,6 @@ img{
   width: 150px;
   margin: 5px;
 }
-
 
 /* footer */
 footer {
