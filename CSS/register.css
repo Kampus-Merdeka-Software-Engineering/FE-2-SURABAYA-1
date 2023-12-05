@@ -47,8 +47,8 @@ body{
 }
 
 .container button{
-    background-color: #EBE3CE ;
-    color: black;
+    background-color: #3A4D39 ;
+    color: #fff;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
@@ -61,7 +61,7 @@ body{
 }
 
 .container button:hover {
-    background-color: #3D5F3B; 
+    background-color: yellowgreen; 
     color: #fff;
     transition: background-color 0.3s, color 0.3s; 
 }
@@ -94,6 +94,10 @@ body{
     transition: all 0.6s ease-in-out;
 }
 
+.form-container h1{
+    margin-bottom: 8px;
+}
+
 .sign-in{
     left: 0;
     width: 50%;
@@ -104,19 +108,15 @@ body{
     transform: translateX(100%);
 }
 
-.sign-up{
-    left: 0;
-    width: 50%;
-    opacity: 0;
-    z-index: 1;
+.toggle-right p a {
+    color: #EBE3CE;
+    text-decoration: underline;
 }
 
-.container.active .sign-up{
-    transform: translateX(100%);
-    opacity: 1;
-    z-index: 5;
-    animation: move 0.6s;
+.toggle-right p a :hover {
+    color: yellowgreen;
 }
+
 
 @keyframes move{
     0%, 49.99%{
