@@ -40,33 +40,36 @@
             </div>
             <div class="contactForm">
                 <h2>Send a Massage</h2>
-                <div class="formBox">
-                    <div class="inputBox w50">
-                        <input type="text" name="firstName" required>
-                        <span>First Name</span>
+                <form id="contactForm">
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="firstName" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="lastName" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" name="email" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="mobileNumber" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea name="message" required></textarea>
+                            <span>Write your Message Here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
                     </div>
-                    <div class="inputBox w50">
-                        <input type="text" name="lastName" required>
-                        <span>Last Name</span>
-                    </div>
-                    <div class="inputBox w50">
-                        <input type="email" name="email" required>
-                        <span>Email</span>
-                    </div>
-                    <div class="inputBox w50">
-                        <input type="text" name="mobileNumber" required>
-                        <span>Mobile Number</span>
-                    </div>
-                    <div class="inputBox w100">
-                        <textarea name="message" required></textarea>
-                        <span>Write your Message Here...</span>
-                    </div>
-                    <div class="inputBox w100">
-                         <input type="submit" value="Send">
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
+    <script src="../JS/contactus.js"></script>
 </body>
 </html>
