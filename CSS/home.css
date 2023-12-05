@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* .nav{
+    background-color: #3A4D39;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 180px;
+}
+
+.menuNav{
+    position: relative;
+    left: 170px;
+}
+
+.menuNav ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+.menuNav ul li a{
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+}
+
+.menuNav ul li button{
+    color: #fff;
+    border-radius: 5px;
+    background-color:#739072 ;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
+
+.banner {
+    position :relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 20rem;
+}
+
+.box {
+    border: 1px solid black;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    z-index: 99;
+    background-color: aliceblue;
+   
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 200px;
+    height: 5%;
+    margin: 0px 70px;
+}
+
+.why_us{
+    margin-bottom: 20px;
+}
+.why_us h1{
+    text-align: center;
+    color: #3A4D39;
+    margin-bottom: 40px;
+}
+
+.boxwhy{
+    display: flex;
+    width: 700px;
+    margin: 0px 310px;
+}
+
+.why1, .why2, .why3{
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.why1 img, .why2 img, .why3 img{
+    width: 60px;
+    height: 60px;
+    margin: 0 60px;
+}
+
+.latest h3{
+    color: #3A4D39;
+    margin-bottom: 130px;
+    margin-left: 20px;
+}
+
+.boxlatest{
+    display: flex;
+    margin-left: 220px;
+}
+.boxlatest .latest1, .boxlatest .latest2, .boxlatest .latest3{
+    margin: 0px 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+} 
+
+.boxlatest img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+
