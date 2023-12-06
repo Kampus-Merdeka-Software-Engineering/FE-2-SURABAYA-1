@@ -164,14 +164,76 @@ nav {
 
 .container_sedan img, .container_SUV img {
   width: 90%;
-
+  cursor: pointer;
 }
 
 .container_SUV .half-image {
   margin-top: 15px; /* Jarak antara gambar dan teks di container_SUV */
 }
 
+.container_mobil button {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: #3A4D39;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
 
+button:hover {
+  background-color: yellowgreen;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container_mobil h1{
+  color: black;
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  font-size: x-large;
+}
+.container_mobil h1::after{
+  content: '';
+  height:2px;
+  width:0px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  transition: 0.3s ease;
+
+}
+.container_mobil h1:hover::after{
+  width:30px
+}
+
+.container_mobil p{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
+  font-size: small;
+}
+.container_mobil p:hover::before{
+  opacity: 1;
+}
+.container_mobil p:hover{
+  transform: translateX(-8px);
+  color: #3A4D39;
+  font-weight: bold;
+}
 
 
 /* footer */

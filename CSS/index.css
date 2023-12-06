@@ -35,7 +35,7 @@
 }
 
 .btn:hover {
-  background-color: #3D5F3B;
+  background-color: yellowgreen;
 }
 
 a {
@@ -54,10 +54,11 @@ body {
 }
 
 .header {
-  background-image: url("images/banner2.jpg");
+  background-image: url("../Gambar/banner2.jpg");
   background-position: center center;
-  background-size: 1200px;
+  background-size: 1500px;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 nav {
@@ -163,7 +164,7 @@ nav {
 .tc {
   max-width: 800px;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
   align-items: center;
 }
 
@@ -188,6 +189,16 @@ nav {
   font-size: small;
   align-items: center;
   color: grey;
+}
+
+
+li:hover {
+  color: #3D5F3B;
+  cursor: pointer;
+}
+
+li:hover::before {
+  color: #ff9900;
 }
 
 

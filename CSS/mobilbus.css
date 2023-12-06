@@ -126,7 +126,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 .mobil-item button:hover{
-    background-color: #980404;
+    background-color: yellowgreen;
     color: white;
 }
 

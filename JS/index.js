@@ -13,6 +13,11 @@ const scrollRevealOption = {
     ...scrollRevealOption,
     delay: 500,
   });
+
+  ScrollReveal().reveal(".tc", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
   
   // trending container
   ScrollReveal().reveal(".trending__card", {
@@ -49,3 +54,5 @@ function toogleSidebar() {
     navLinks.classList.toggle('active');
   }
 
+
+  
