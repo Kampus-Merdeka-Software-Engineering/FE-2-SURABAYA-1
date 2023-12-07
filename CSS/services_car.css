@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section__container {
@@ -151,7 +152,19 @@ nav {
   margin-top: 0px;
 }
 
-.container_sedan, .container_SUV {
+.container_sedan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-family: sans-serif;
+  width: 35%; /* Atur lebar agar tidak terlalu lebar */
+  margin-top: 14px; 
+}
+
+.container_SUV {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,8 +177,8 @@ nav {
 
 .container_sedan img, .container_SUV img {
   width: 90%;
-  cursor: pointer;
 }
+
 
 .container_SUV .half-image {
   margin-top: 15px; /* Jarak antara gambar dan teks di container_SUV */
@@ -195,14 +208,15 @@ a {
   color: #fff;
 }
 
-.container_mobil h1{
+.container_mobil ul{
   color: black;
   margin-bottom: 5px;
   position: relative;
   cursor: pointer;
   font-size: x-large;
+  font-weight: bolder;
 }
-.container_mobil h1::after{
+.container_mobil ul::after{
   content: '';
   height:2px;
   width:0px;
@@ -213,23 +227,24 @@ a {
   transition: 0.3s ease;
 
 }
-.container_mobil h1:hover::after{
+.container_mobil ul:hover::after{
   width:30px
 }
 
-.container_mobil p{
+.container_mobil li{
   display: block;
   text-decoration: none;
   color: black;
   margin-bottom: 5px;
   position: relative;
   transition: 0.3s ease;
-  font-size: small;
+  font-size: medium;
+  cursor: pointer;
 }
-.container_mobil p:hover::before{
+.container_mobil li:hover::before{
   opacity: 1;
 }
-.container_mobil p:hover{
+.container_mobil li:hover{
   transform: translateX(-8px);
   color: #3A4D39;
   font-weight: bold;
@@ -390,6 +405,14 @@ footer {
     margin-left: 0px;
   }
 
+  .box img {
+    width: 70%;
+  }
+  .box {
+    width: 90%;
+    margin-top: 9rem;
+  }
+
 }
 
 /* Media queries untuk ponsel */
@@ -483,5 +506,14 @@ footer {
     margin-bottom: 10px;
     color: #3D5F3B;
    }
+
+   .box img {
+    width: 90%;
+    margin-left: 16px;
+  }
+  .box {
+    width: 90%;
+    margin-top: 9rem;
+  }
 }
 

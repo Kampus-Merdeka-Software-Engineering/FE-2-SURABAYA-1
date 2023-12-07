@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section__container {
@@ -157,47 +158,36 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   color: black;
   font-family: sans-serif;
   width: 35%; /* Atur lebar agar tidak terlalu lebar */
 }
 
-.container_minibus img, .container_bus img {
-  width: 90%;
-
+.container_bus {
+  transform: translateY(-50px);
+}
+.container_bus img {
+  width: 150%;
+}
+.container_minibus img {
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .container_bus .half-image {
   margin-top: 15px; /* Jarak antara gambar dan teks di container_SUV */
 }
 
-.container_mobil p{
-  display: block;
-  text-decoration: none;
-  color: black;
-  margin-bottom: 5px;
-  position: relative;
-  transition: 0.3s ease;
-  font-size: small;
-}
-.container_mobil p:hover::before{
-  opacity: 1;
-}
-.container_mobil p:hover{
-  transform: translateX(-8px);
-  color: #3A4D39;
-  font-weight: bold;
-}
-
-.container_mobil h1{
+.container_mobil ul{
   color: black;
   margin-bottom: 5px;
   position: relative;
   cursor: pointer;
   font-size: x-large;
+  font-weight: bolder;
 }
-.container_mobil h1::after{
+.container_mobil ul::after{
   content: '';
   height:2px;
   width:0px;
@@ -206,10 +196,33 @@ nav {
   bottom: 0;
   left:0;
   transition: 0.3s ease;
+
+}
+.container_mobil ul:hover::after{
+  width:30px
 }
 
-.container_mobil h1:hover::after{
-  width:30px
+.container_mobil li{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.container_minibus ul{
+  margin-top: 40px;
+}
+.container_mobil li:hover::before{
+  opacity: 1;
+}
+.container_mobil li:hover{
+  transform: translateX(-8px);
+  color: #3A4D39;
+  font-weight: bold;
 }
 
 .container_mobil button {
@@ -225,6 +238,21 @@ nav {
   cursor: pointer;
   transition: 0.3s;
   margin-top: 10px;
+}
+
+.container_minibus button {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: #3A4D39;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 115px;
 }
 
 button:hover {
@@ -391,6 +419,14 @@ footer {
   .btn {
     margin-left: 0px;
   }
+  .box img {
+    width: 70%;
+  }
+  .box {
+    width: 90%;
+    margin-top: 9rem;
+  }
+
 
 }
 
@@ -485,5 +521,13 @@ footer {
     margin-bottom: 10px;
     color: #3D5F3B;
    }
+   .box img {
+    width: 90%;
+    margin-left: 16px;
+  }
+  .box {
+    width: 90%;
+    margin-top: 9rem;
+  }
 }
 
