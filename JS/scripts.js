@@ -7,7 +7,6 @@ registerForm.addEventListener('submit', async (event) => {
     event.preventDefault();
   
     const email_or_phone = document.getElementById('registerEmailOrPhone').value;
-    const username = document.getElementById('registerUsername').value;
     const password = document.getElementById('registerPassword').value;
   
     try {
@@ -16,7 +15,7 @@ registerForm.addEventListener('submit', async (event) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email_or_phone, username, password }),
+        body: JSON.stringify({ email_or_phone,password }),
       });
   
       const data = await response.json();
