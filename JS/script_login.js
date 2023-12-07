@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loginForm.addEventListener('submit', async (event) => {
     event.preventDefault();
   
-    const username = document.getElementById('loginUsername').value;
+    const email_or_phone = document.getElementById('loginEmailOrPhone').value;
     const password = document.getElementById('loginPassword').value;
   
     try {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ email_or_phone, password }),
       });
   
       const data = await response.json();

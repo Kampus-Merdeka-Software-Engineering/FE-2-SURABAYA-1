@@ -29,36 +29,36 @@
       <div class="section__container header__container" id="home">
         <h1>Explore the beauty of nature Discover the new you</h1>
         <div class="header__form">
-          <form action="/">
+          <form id="orderForm">
             <div class="input__group">
               <label for="name">Name</label>
-              <input type="text" placeholder="Full name" />
+              <input type="text" placeholder="Full name" id="name" required>
             </div>
             <div class="input__group">
               <label for="phone">Phone Number</label>
-              <input type="text" placeholder="With +62" />
+              <input type="text" placeholder="With +62" id="phone" required>
             </div>
             <div class="input__group">
               <label for="email">Email</label>
-              <input type="text" placeholder="Write correct email" />
+              <input type="text" placeholder="Write correct email" id="email" required>
             </div>
             <div class="input__group">
               <label for="destination">Location</label>
-              <input type="text" placeholder="Choose region" />
+              <input type="text" placeholder="Choose region" id="destination" required>
             </div>
             <div class="input__group">
               <label for="start">Pick-Up Date</label>
-              <input type="date" placeholder="Choose a date" />
+              <input type="date" placeholder="Choose a date" id="start" required>
             </div>
             <div class="input__group">
               <label for="End">Return Date</label>
-              <input type="date" placeholder="Choose a date" />
+              <input type="date" placeholder="Choose a date" id="End" required>
             </div>
             <div class="input__group">
               <label for="time">Pick-Up Time</label>
-              <input type="time" placeholder="Choose time" />
+              <input type="time" placeholder="Choose time" id="time" required>
             </div>
-            <button class="btn">SUBMIT</button>
+            <button class="btn" type="submit">SUBMIT</button>
           </form>
         </div>
       </div>
@@ -143,5 +143,6 @@
     </footer>
 
     <script src="../JS/index.js"></script>
+    <script src="../JS/scriptOrder.js"></script>
   </body>
 </html>
