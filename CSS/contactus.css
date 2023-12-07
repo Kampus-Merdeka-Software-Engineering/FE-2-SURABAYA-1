@@ -128,7 +128,7 @@ section::before {
     resize: none;
     padding: 5px 0;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 100;
     color: black;
     border: none;
     outline: none;
@@ -139,7 +139,7 @@ section::before {
     height: 120px;
 }
 
-.container .contactForm .formBox .inputBox span {
+/* .container .contactForm .formBox .inputBox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -147,7 +147,7 @@ section::before {
     font-size: 18px;
     font-weight: 300;
     transition: 0.3s;
-}
+} */
 
 .container .contactForm .formBox .inputBox input:focus ~ span,
 .container .contactForm .formBox .inputBox input:valid ~ span
@@ -235,6 +235,14 @@ section::before {
         justify-content: center;
         align-items: c;
     }
+    .container .contactForm .formBox .inputBox input[type="submit"] {
+        margin-top: 0;
+        /* width: 90px; */
+        align-items: center;
+        /* margin-left: 79%; */
+        font-size: medium;
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width : 600px)
@@ -250,6 +258,7 @@ section::before {
         align-items: center;
         margin-left: 79%;
         font-size: small;
+        margin-bottom: 90px;
     }
     .container .contactInfo {
         padding: 25px;
