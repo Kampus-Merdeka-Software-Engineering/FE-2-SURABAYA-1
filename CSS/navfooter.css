@@ -238,7 +238,7 @@ nav {
      left: 0;
      width: 50%;
      background-color: #3A4D39;
-     z-index: 1;
+     z-index: 99;
      margin-top: 2%;
      height: 250px;
      margin-left: 50%;
