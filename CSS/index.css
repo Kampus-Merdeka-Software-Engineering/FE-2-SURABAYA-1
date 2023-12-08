@@ -121,6 +121,7 @@ nav {
   font-size: 3.5rem;
   color: #fff;
   text-align: center;
+  text-shadow:  4px 4px #3A4D39;
 }
 
 .header__form {
