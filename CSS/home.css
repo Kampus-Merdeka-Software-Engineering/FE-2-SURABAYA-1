@@ -9,12 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 
-:root{
+/* :root{
     --main-color: #3A4D39;
     --second-color: #c6dd33;
     --text-color: #fff;
     --gradient: linear-gradient(#263727,#c6dd33)
-}
+} */
 /* scroll bar */
 html ::-webkit-scrollbar{
     width: 0.5rem;
@@ -23,7 +23,7 @@ html ::-webkit-scrollbar-track{
     background: transparent;
 }
 html ::-webkit-scrollbar-thumb{
-    background: var(--main-color);
+    background: #3A4D39;
     border-radius: 5rem;
 }
 
