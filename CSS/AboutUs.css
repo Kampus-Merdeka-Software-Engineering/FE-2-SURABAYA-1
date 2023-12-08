@@ -16,6 +16,9 @@ html ::-webkit-scrollbar-thumb{
   background: #3A4D39;
   border-radius: 5rem;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 nav {
    max-width: var(--max-width);

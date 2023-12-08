@@ -13,6 +13,20 @@
   box-sizing: border-box;
 }
 
+html ::-webkit-scrollbar{
+  width: 0.5rem;
+}
+html ::-webkit-scrollbar-track{
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+  background: #3A4D39;
+  border-radius: 5rem;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 .section__container {
   max-width: 1100px;
   margin: auto;
