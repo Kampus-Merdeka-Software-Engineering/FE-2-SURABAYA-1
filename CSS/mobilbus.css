@@ -5,6 +5,17 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+html ::-webkit-scrollbar{
+  width: 0.5rem;
+}
+html ::-webkit-scrollbar-track{
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+  background: #3A4D39;
+  border-radius: 5rem;
+}
+
 nav {
    max-width: var(--max-width);
    margin: auto;

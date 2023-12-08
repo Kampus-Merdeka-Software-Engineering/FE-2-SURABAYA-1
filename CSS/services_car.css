@@ -121,7 +121,7 @@ nav {
   height: 200px;
   position: relative;
   left: 50%;
-  z-index: 99;
+  z-index: 3;
   background-color: #EBE3CE;
  
   transform: translate(-50%, -50%);
