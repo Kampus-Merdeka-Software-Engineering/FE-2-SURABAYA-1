@@ -44,7 +44,7 @@ body {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #EBE3CE;
 }
 
@@ -171,7 +171,7 @@ nav {
   text-align: center;
   padding: 20px;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 35%; /* Atur lebar agar tidak terlalu lebar */
   margin-top: 14px; 
 }
@@ -183,7 +183,7 @@ nav {
   text-align: center;
   padding: 20px;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 35%; /* Atur lebar agar tidak terlalu lebar */
 }
 
@@ -296,7 +296,7 @@ footer {
 .col{
   /* min-width: 250px; */
   color:#fff;
-  font-family: Montserrat, sans-serif ;
+  font-family: 'Montserrat', sans-serif;
   margin-right: auto;
   margin-left: 10px;
   
