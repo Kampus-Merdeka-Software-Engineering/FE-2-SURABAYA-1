@@ -76,7 +76,8 @@ nav {
     margin-top: 20px;
     margin-bottom: 1rem;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    color: #3A4D39;
 }
 .mobil-item-container{
     display: flex;
