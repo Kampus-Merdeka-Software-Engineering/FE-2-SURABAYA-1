@@ -170,7 +170,9 @@ nav {
 }
 
 .container_desc p{
-  padding: 20px 20px 100px 20px;
+  padding: 20px 20px 20px 20px;
+  line-height: 2.0;
+  font-size: 14px;
 }
 
 .container_mobil {
@@ -194,8 +196,9 @@ nav {
   transform: translateY(-50px);
 }
 .container_bus img {
-  width: 150%;
+  width: 145%;
 }
+
 .container_minibus img {
   width: 100%;
   margin-top: 2rem;
@@ -229,7 +232,8 @@ nav {
 }
 
 .container_mobil li{
-  display: block;
+  display: list-item;
+  list-style-type: square;
   text-decoration: none;
   color: black;
   margin-bottom: 5px;
@@ -240,7 +244,7 @@ nav {
 }
 
 .container_minibus ul{
-  margin-top: 40px;
+  margin-top: 45px;
 }
 .container_mobil li:hover::before{
   opacity: 1;
@@ -278,7 +282,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  margin-top: 115px;
+  margin-top: 97px;
 }
 
 button:hover {

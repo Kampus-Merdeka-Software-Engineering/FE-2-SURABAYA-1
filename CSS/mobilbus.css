@@ -88,10 +88,12 @@ nav {
 
 .mobil h2 {
     font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
     width: 100%;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
+    color: #3A4D39; 
+    font-weight: 1000;
 }
 .mobil-item-container{
     display: flex;
