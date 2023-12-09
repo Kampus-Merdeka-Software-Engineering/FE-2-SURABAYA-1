@@ -9,13 +9,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* :root{
-    --main-color: #3A4D39;
-    --second-color: #c6dd33;
-    --text-color: #fff;
-    --gradient: linear-gradient(#263727,#c6dd33)
-} */
-/* scroll bar */
 html ::-webkit-scrollbar{
     width: 0.5rem;
 }
@@ -27,53 +20,6 @@ html ::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
-/* .nav{
-    background-color: #3A4D39;
-    display: flex;
-}
-
-.logo img {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    right: 180px;
-}
-
-.menuNav{
-    position: relative;
-    left: 170px;
-}
-
-.menuNav ul li{
-    display: inline;
-    text-decoration: none;
-}
-
-.menuNav ul li a{
-    margin: 20px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    font-family: Inter;
-    font-size: 17px;
-    font-weight: 600;
-    font-style: normal;
-    line-height: normal;
-}
-
-.menuNav ul li button{
-    color: #fff;
-    border-radius: 5px;
-    background-color:#739072 ;
-    width: 70px;
-    height: 40px;
-    text-align: center;
-    font-family: Inter;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-} */
 
 body{
     background-color:#EBE3CE ;
@@ -84,6 +30,35 @@ body{
     margin: 0;
     overflow: hidden;
     position: relative;
+}
+
+.main1 .titlemain h1{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    display: inline-block;
+    padding: 6px 15px;
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    text-shadow:  4px 4px #3A4D39;
+}
+
+.efek-ketik{
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: ketik 5s steps(50, end);
+    animation: ketik 5s steps(50, end);
+}
+ 
+@keyframes ketik{
+    from { width: 0; }
+}
+ 
+@-webkit-keyframes ketik{
+    from { width: 0; }
 }
 
 .banner {
@@ -270,6 +245,10 @@ body{
         height: 300px;
     }
 
+    .main1 .titlemain h1 {
+        font-size: 2.5rem;
+      }
+
     .box{
         width: 80%;
         height: auto;
@@ -291,7 +270,19 @@ body{
 }
 
 @media screen and (max-width:768px){
+    .main1 .titlemain h1 {
+        font-size: 1.5rem;
+      }
+    
     .latest-cards{
         grid-template-columns: 1fr;
     }
+
+    .box{
+        height: 100px;
+    }
+    .box img {
+        width: 120px;
+    } 
+    
 }

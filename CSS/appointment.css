@@ -84,6 +84,10 @@ nav {
   justify-content: space-between;
   gap: 2rem;
   background-color: #3D5F3B;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 10;
 }
 
 .logo img {

@@ -32,6 +32,10 @@ nav {
    justify-content: space-between;
    gap: 2rem;
    background-color: #3A4D39;
+   top: 0;
+   position: sticky;
+   position: -webkit-sticky;
+   z-index: 10;
  }
  
  .logo img {
