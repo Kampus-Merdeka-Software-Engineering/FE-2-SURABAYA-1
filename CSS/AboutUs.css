@@ -81,14 +81,13 @@ nav {
    background: yellowgreen;
  }
 .hero{
-    background-color: #f8f8f8;
+    background-color: #EBE3CE;
     overflow: hidden;
     justify-content: center;
     text-align: center;
     margin: auto;
     height: 650px;
 }
-
 
 .heading h1 {
     color: #739072;
@@ -130,10 +129,16 @@ img{
     border-radius: 10px;
 }
 /* Visi Misi */
+
+.section {
+  background-color: #EBE3CE;
+}
+
 .title h2 {
     text-align: center;
     padding-top: 50px;
     font-size: 35px;
+    background-color: #EBE3CE;
 }
 .title h2::after {
     content:"";
@@ -150,6 +155,7 @@ img{
     align-items: center;
     margin:75px auto;
     text-align: center;
+    background-color: #EBE3CE;
 }
 .card{
     width: 100%;
@@ -178,6 +184,11 @@ img{
 }
 
 /* Our Team */
+
+.team {
+ background-color: #EBE3CE ;
+}
+
 .wrapper{
   background: #fff;
   width: 1000px;
