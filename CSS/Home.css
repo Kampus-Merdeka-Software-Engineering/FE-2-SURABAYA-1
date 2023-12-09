@@ -75,6 +75,9 @@ html ::-webkit-scrollbar-thumb{
     line-height: normal;
 } */
 
+body{
+    background-color:#EBE3CE ;
+}
 .main1 {
     width: 100%;
     height: 700px;
@@ -119,7 +122,7 @@ html ::-webkit-scrollbar-thumb{
     bottom: 0;
     left: 50%;
     z-index: 2;
-    background-color: aliceblue;
+    background-color: #EBE3CE;
     border-radius: 10px;
     transform: translateX(-50%);
     text-align: center; 

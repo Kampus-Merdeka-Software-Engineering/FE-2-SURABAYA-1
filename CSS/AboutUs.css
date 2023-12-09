@@ -20,6 +20,9 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #EBE3CE ;
+}
 nav {
    max-width: var(--max-width);
    margin: auto;
