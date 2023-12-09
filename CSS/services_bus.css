@@ -120,7 +120,7 @@ nav {
 /* Menambahkan box banner*/
 .box {
   border: 2px solid black;
-  width: 800px;
+  width: 890px;
   height: 200px;
   position: relative;
   left: 50%;
@@ -140,6 +140,17 @@ nav {
   width: 300px;
   height: 5%;
   margin: 0px 70px;
+}
+
+.box .car img{
+  padding-top: 32px;
+}
+
+.section__container .box .bus {
+  background-color: #d8d0bd;
+  border-radius: 10px;
+  padding: 0px;
+  border: black;
 }
 
 .section__container .box a:hover img {
