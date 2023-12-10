@@ -511,4 +511,35 @@ footer {
       margin-bottom: 10px;
       color: #3D5F3B;
      }
+
+
+     .container-aboutus .holics-image{
+      transform: translateY(-50%);
+     }
+
+     .card{
+      min-height: 350px;
+     }
+
+     .wrapper{
+      text-align: center;
+      width: 300px;
+      height: auto;
+     }
+  }
+
+  @media screen and (max-width:400px){
+    .container-aboutus .holics-image{
+      transform: translateY(-230%);
+     }
+
+     .card{
+      min-height: 700px;
+     }
+
+     .wrapper{
+      text-align: center;
+      width: 250px;
+      height: auto;
+     }
   }
