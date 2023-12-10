@@ -7,6 +7,29 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.back-to-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001; /* Mengatur z-index agar tombol muncul di atas elemen lain */
+}
+
+.back-to-home a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background: #3A4D39;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: xx-small;
+    width: min-content;
+}
+
+.back-to-home a:hover {
+    background: #739072;
+}
+
 section {
     display: flex;
     justify-content: center;
