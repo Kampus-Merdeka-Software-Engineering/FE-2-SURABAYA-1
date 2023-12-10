@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = await response.json();
       console.log(data);
       if (!data.error) {
-        window.location.href = '../index.html';
+        window.location.href = '../HTML/home.html';
 
         showPopup('Successful login, happy exploring...', true);
       } else {
@@ -51,3 +51,13 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
   
+  function togglePasswordVisibility() {
+    var passwordInput = document.getElementById("loginPassword");
+    var showPasswordCheckbox = document.getElementById("showPasswordCheckbox");
+
+    if (showPasswordCheckbox.checked) {
+        passwordInput.type = "text";
+    } else {
+        passwordInput.type = "password";
+    }
+}

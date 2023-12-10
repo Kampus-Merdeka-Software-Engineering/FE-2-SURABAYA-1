@@ -235,6 +235,19 @@ body{
     text-align: center;
 }
 
+.checkbox-container {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.checkbox-container input,
+.checkbox-container label {
+    white-space: nowrap;
+    margin: auto;
+    margin-left: 5px;
+    padding-bottom: 4px;
+}
+
 /********** Responsive Design ********/
 @media (max-width: 600px) {
     .container {
