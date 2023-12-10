@@ -230,6 +230,7 @@ img{
   padding: 1rem;
   border-radius: 20px;
   transition: transform 0.7s ease;
+  cursor: pointer;
 }
 .team-mem:hover {
   transform: scale(1.1);
