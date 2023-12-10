@@ -57,7 +57,7 @@ registerForm.addEventListener('submit', async (event) => {
   });
   
   function togglePasswordVisibility() {
-    var passwordInput = document.getElementById("loginPassword");
+    var passwordInput = document.getElementById("registerPassword");
     var showPasswordCheckbox = document.getElementById("showPasswordCheckbox");
 
     if (showPasswordCheckbox.checked) {
