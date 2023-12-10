@@ -25,7 +25,7 @@
         <ul class="nav__links">
           <li class="link"><a href="./index.html">Home</a></li>
           <li class="link"><a onclick="konfirmasi()" href="#">Services</a></li>
-          <li class="link"><a href="./HTML/AboutUs.html">About Us</a></li>
+          <li class="link"><a href="./HTML/aboutUsSub.html">About Us</a></li>
           <li class="login"><a href="./HTML/login.html">Login</a></li>
         </ul>
     </nav>
@@ -146,9 +146,9 @@
                 <h3>Company</h3>
                 <div class="links">
                     <a onclick="konfirmasi()" href="#">Services</a>
-                    <a href="./HTML/AboutUs.html">About Us</a>
-                    <a href="./HTML/AboutUs.html#team">Our Team</a>
-                    <a href="./HTML/contactus.html">Contact Us</a>
+                    <a href="./HTML/aboutUsSub.html">About Us</a>
+                    <a href="./HTML/aboutUsSub.html#team">Our Team</a>
+                    <a href="./HTML/contactUsSub.html">Contact Us</a>
                 </div>
                 </div>
 
@@ -172,14 +172,14 @@
     </footer>
     <script src="./JS/index.js"></script>
     <script>
-                    function konfirmasi() {
-                    let conf = confirm('Please Login First')
-                    if (conf === true) {
-                        window.location.href = './HTML/login.html';
-                    } else {
-                        return false;
-                    }
+        function konfirmasi() {
+            let conf = confirm('Please Login First')
+                if (conf === true) {
+                    window.location.href = './HTML/login.html';
+                } else {
+                     return false;
                 }
+        }
     </script>
 </body>
 </html>

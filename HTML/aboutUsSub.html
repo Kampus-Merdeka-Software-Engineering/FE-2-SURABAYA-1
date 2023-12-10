@@ -13,17 +13,17 @@
 </head>
 <body>
     <nav>
-        <div class="nav__logo"><a href="../HTML/home.html" class="logo">
+        <div class="nav__logo"><a href="../index.html" class="logo">
           <img src="../Gambar/TravelHolic2.png" alt="logo"></a>
         </div>
         <div class="sideBar" onclick="toogleSidebar()">
           <i class="fa-solid fa-bars"></i>
         </div>
         <ul class="nav__links">
-          <li class="link"><a href="../HTML/home.html">Home</a></li>
-          <li class="link"><a href="../HTML/services_car.html">Services</a></li>
-          <li class="link"><a href="../HTML/AboutUs.html">About Us</a></li>
-          <li class="login"><a href="../HTML/login.html">Account</a></li>
+          <li class="link"><a href="../index.html">Home</a></li>
+          <li class="link"><a onclick="konfirmasi()" href="#">Services</a></li>
+          <li class="link"><a href="../HTML/aboutUsSub.html">About Us</a></li>
+          <li class="login"><a href="../HTML/login.html">Login</a></li>
         </ul>
     </nav>
     <section class="hero">
@@ -135,20 +135,20 @@
             <div class="col" id="services">
             <h3>Services</h3>
             <div class="links">
-                <a href="../HTML/citycar.html">City Car</a>
-                <a href="../HTML/adventurecar.html">Adventure Car</a>
-                <a href="../HTML/micro-bus.html">Mini Bus</a>
-                <a href="../HTML/bus.html">Bus</a>
+                <a onclick="konfirmasi()" href="#">City Car</a>
+                <a onclick="konfirmasi()" href="#">Adventure Car</a>
+                <a onclick="konfirmasi()" href="#">Mini Bus</a>
+                <a onclick="konfirmasi()" href="#">Bus</a>
             </div>
             </div>
 
             <div class="col" id="useful-links">
             <h3>Company</h3>
             <div class="links">
-                <a href="../HTML/services_car.html">Services</a>
-                <a href="../HTML/AboutUs.html">About Us</a>
-                <a href="../HTML/AboutUs.html#team">Our Team</a>
-                <a href="../HTML/contactus.html">Contact Us</a>
+                <a onclick="konfirmasi()" href="#">Services</a>
+                <a href="../HTML/aboutUsSub.html">About Us</a>
+                <a href="../HTML/aboutUsSub.html#team">Our Team</a>
+                <a href="../HTML/contactUsSub.html">Contact Us</a>
             </div>
             </div>
 
@@ -171,4 +171,14 @@
     </div>
 </footer>
 <script src="../JS/index.js"></script>
+<script>
+    function konfirmasi() {
+        let conf = confirm('Please Login First')
+            if (conf === true) {
+                window.location.href = '../HTML/login.html';
+            } else {
+                 return false;
+            }
+    }
+</script>
 </html>
