@@ -20,10 +20,34 @@ document.addEventListener('DOMContentLoaded', () => {
   
       const data = await response.json();
       console.log(data);
+      if (!data.error) {
+        window.location.href = '../HTML/home.html';
+
+        showPopup('Successful login, happy exploring...', true);
+      } else {
+          showPopup(data.message, false);
+      }
     } catch (error) {
-      console.error('Error during login:', error);
+        console.error('Error during login:', error);
+
+        showPopup('An error occurred during login. Please try again.', false);
     }
-  });
+    });
+
+  function showPopup(message, success) {
+  const popupContainer = document.getElementById('popup');
+  const popupContent = document.getElementById('popup-content');
+
+  popupContent.innerHTML = `<p>${message}</p>`;
+  popupContainer.style.backgroundColor = success ? '#4CAF50' : '#f44336';
+
+  popupContainer.style.display = 'block';
+
+
+  setTimeout(() => {
+      popupContainer.style.display = 'none';
+  }, 5000);
+  }
   
   });
   

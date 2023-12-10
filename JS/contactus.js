@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contactForm');
 
     contactForm.addEventListener('submit', async (event) => {
-        event.preventDefault(); // Mencegah form untuk melakukan pengiriman langsung
+        event.preventDefault(); 
 
         // Ambil nilai dari input
         const firstName = document.querySelector('input[name="firstName"]').value;
@@ -13,14 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const mobileNumber = document.querySelector('input[name="mobileNumber"]').value;
         const message = document.querySelector('textarea').value;
 
-        // Lakukan validasi, misalnya periksa apakah semua input terisi
-        if (firstName && lastName && email && mobileNumber && message) {
-            // Kirim data ke server atau lakukan tindakan lain sesuai kebutuhan
-            console.log('Data yang akan dikirim:', { firstName, lastName, email, mobileNumber, message });
 
-            // Di sini, Anda dapat menambahkan logika untuk mengirim data ke server menggunakan AJAX atau metode lainnya.
-            // Contoh menggunakan fetch:
-            
+        if (firstName && lastName && email && mobileNumber && message) {
+    
+            console.log('Data to be sent:', { firstName, lastName, email, mobileNumber, message });
+
             try {
                 const response = await fetch(`${API_BASE_URL}/contact-us`, {
                     method: 'POST',
@@ -30,20 +27,47 @@ document.addEventListener('DOMContentLoaded', () => {
                     body: JSON.stringify({ firstName, lastName, email, mobileNumber, message }),
                 });
         
-                if (!response.ok) {
+                const customPopup = document.getElementById('customPopup');
+                const popupContent = document.getElementById('popupContent');
+                const popupButtons = document.getElementById('popupButtons');
+    
+                if (response.ok) {
+                    
+                    popupContent.innerText = 'Message sent successfully!';
+                    popupButtons.innerHTML = `
+                        <button onclick="redirectToHome()">Go to Home</button>
+                        <button onclick="stayOnPage()">Send message again</button>
+                    `;
+                } else {
                     const data = await response.json();
-                    throw new Error(data.error || 'Failed to submit form');
+                    popupContent.innerText = `Failed to send message: ${data.error || 'Unknown error'}`;
+                    popupButtons.innerHTML = `
+                        <button onclick="stayOnPage()">OK</button>
+                    `;
                 }
-        
-                return await response.json();
+    
+                customPopup.style.display = 'block';
             } catch (error) {
-                throw error;
+                console.error('Error during sending message:', error);
+                popupContent.innerText = 'Error during sending message. Please try again.'; 
+                popupButtons.innerHTML = `
+                    <button onclick="stayOnPage()">OK</button>
+                `;
+    
+                customPopup.style.display = 'block';
             }
             
-
-            // Di sini, Anda dapat menambahkan logika untuk menampilkan pesan sukses atau kesalahan kepada pengguna.
         } else {
-            alert('Mohon lengkapi semua input sebelum mengirim pesan.');
+            alert('Please complete all inputs before sending the message.');
         }
     });
 });
+
+function redirectToHome() {
+    window.location.href = '../HTML/home.html'; 
+}
+
+function stayOnPage() {
+    const customPopup = document.getElementById('customPopup');
+    customPopup.style.display = 'none';
+}

@@ -228,7 +228,7 @@ body{
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
-    z-index: 1000; /* Ensure it appears above other elements */
+    z-index: 1000; 
 }
 
 /* .custom-popup .popup-content {

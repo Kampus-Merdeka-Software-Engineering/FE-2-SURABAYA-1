@@ -30,7 +30,7 @@ registerForm.addEventListener('submit', async (event) => {
 
           setTimeout(() => {
               window.location.href = '../HTML/login.html';
-          }, 3000);
+          }, 5000);
       } else {
 
           popupContent.innerText = `Registration failed: ${data.message}`;
