@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = await response.json();
       console.log(data);
       if (!data.error) {
-        window.location.href = '../HTML/home.html';
+        window.location.href = '../index.html';
 
         showPopup('Successful login, happy exploring...', true);
       } else {
-          showPopup(data.message, false);
+          showPopup('Your Password is Incorrect', false);
       }
     } catch (error) {
         console.error('Error during login:', error);
