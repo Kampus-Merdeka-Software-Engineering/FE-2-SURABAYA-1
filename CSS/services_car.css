@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-:root {
-  --text-dark: #0f172a;
-  --text-light: #64748b;
-  --white: #ffffff;
-  /* --max-width: 1200px; */
-}
 
 /* scroll bar */
 html ::-webkit-scrollbar{
@@ -26,7 +20,7 @@ html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .section__container {
@@ -47,7 +41,7 @@ body {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   background-color: #EBE3CE;
 }
 
@@ -73,7 +67,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   z-index: 10;
-}
+} */
 
 .logo img {
   width: 100px;
@@ -187,7 +181,7 @@ nav {
   text-align: center;
   padding: 20px;
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   width: 35%; /* Atur lebar agar tidak terlalu lebar */
   margin-top: 14px; 
 }
@@ -199,7 +193,7 @@ nav {
   text-align: center;
   padding: 20px;
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   width: 35%; /* Atur lebar agar tidak terlalu lebar */
 }
 
@@ -313,7 +307,7 @@ footer {
 .col{
   /* min-width: 250px; */
   color:#fff;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   margin-right: auto;
   margin-left: 10px;
   
@@ -543,6 +537,10 @@ footer {
   .box {
     width: 90%;
     margin-top: 9rem;
+  }
+
+  .section__container .box .car{
+    background-color: transparent;
   }
 }
 
