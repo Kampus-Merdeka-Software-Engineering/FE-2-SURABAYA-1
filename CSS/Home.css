@@ -289,3 +289,27 @@ body{
     } 
     
 }
+
+@media screen and (max-width:400px){
+    .main1{
+        height: 250px;
+    }
+    
+    .main1 .titlemain h1 {
+        font-size: 1 rem;
+        transform: translateY(-110%);
+        
+      }
+    
+    .latest-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .box{
+        height: 100px;
+    }
+    .box img {
+        width: 120px;
+    } 
+    
+}
