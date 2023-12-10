@@ -239,6 +239,8 @@ body{
 .checkbox-container {
     display: flex;
     margin-bottom: 2px;
+    margin-right: 180px;
+    
 }
 
 .checkbox-container input,
@@ -269,5 +271,17 @@ body{
 
     .toggle-panel {
         width: 100%;
+    }
+
+    .checkbox-container {
+        margin-right: 150px;
+        
+    }
+}
+
+@media (max-width:400px){
+    .checkbox-container {
+        margin-right: 70px;
+        
     }
 }

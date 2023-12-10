@@ -231,6 +231,20 @@ body{
     z-index: 1000; 
 }
 
+.checkbox-container {
+    display: flex;
+    margin-bottom: 2px;
+    margin-right: 180px;
+    
+}
+
+.checkbox-container input,
+.checkbox-container label {
+    white-space: nowrap;
+    margin: auto;
+    margin-left: 5px;
+    padding-bottom: 4px;
+}
 /* .custom-popup .popup-content {
     margin-bottom: 10px;
 } */
@@ -255,5 +269,18 @@ body{
 
     .toggle-panel {
         width: 100%;
+    }
+
+    
+    .checkbox-container {
+        margin-right: 150px;
+        
+    }
+}
+
+@media (max-width:400px){
+    .checkbox-container {
+        margin-right: 70px;
+        
     }
 }

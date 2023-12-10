@@ -56,3 +56,13 @@ registerForm.addEventListener('submit', async (event) => {
   
   });
   
+  function togglePasswordVisibility() {
+    var passwordInput = document.getElementById("loginPassword");
+    var showPasswordCheckbox = document.getElementById("showPasswordCheckbox");
+
+    if (showPasswordCheckbox.checked) {
+        passwordInput.type = "text";
+    } else {
+        passwordInput.type = "password";
+    }
+}
