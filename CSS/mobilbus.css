@@ -155,8 +155,6 @@ nav {
 
 .mobil-item button {
     background-color: #3A4D39;
-    color:white;
-    text-decoration: none;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -167,6 +165,10 @@ nav {
     left: 50%;
     transform: translateX(-50%); */
     
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
 .mobil-item button:hover{
     background-color: yellowgreen;
