@@ -20,7 +20,7 @@ html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section__container {
@@ -41,7 +41,7 @@ body {
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Poppins", sans-serif;
   background-color: #EBE3CE;
 }
 
@@ -67,7 +67,7 @@ nav {
   position: sticky;
   position: -webkit-sticky;
   z-index: 10;
-} */
+} 
 
 .logo img {
   width: 100px;
@@ -307,7 +307,7 @@ footer {
 .col{
   /* min-width: 250px; */
   color:#fff;
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   margin-right: auto;
   margin-left: 10px;
   
@@ -454,7 +454,7 @@ footer {
     left: 0;
     width: 50%;
     background-color: #3A4D39;
-    z-index: 1;
+    z-index: 99;
     margin-top: 2%;
     height: 250px;
     margin-left: 50%;
@@ -539,8 +539,5 @@ footer {
     margin-top: 9rem;
   }
 
-  .section__container .box .car{
-    background-color: transparent;
-  }
 }
 
