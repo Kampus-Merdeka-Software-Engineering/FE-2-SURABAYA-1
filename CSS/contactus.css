@@ -30,6 +30,10 @@
     background: #739072;
 }
 
+body{
+    background: #EBE3CE;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -331,7 +335,7 @@ section::before {
         padding: 25px;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 500px;
+        margin-top: 600px;
     }
     .container .contactInfo ul {
         margin-top: 100px;
@@ -346,7 +350,7 @@ section::before {
 
 
     section .contactForm {
-        margin-top: 22px;
+        margin-top: 30px;
     }
 
 }
